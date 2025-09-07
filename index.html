@@ -4,8 +4,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Green Earth</title>
+
+  <!-- tailwind css  -->
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
 </head>
 <body>
-  <h1>Green Earth</h1>
+  <nav class="bg-green-800">
+     
+    <div class="   h-[72px] flex justify-between items-center ">
+      <!-- nav bar -->
+      <div class="font-bold text-white pl-10 text-2xl">
+          <h2>Green Earth</h2>
+      </div>
+
+      <!-- menu -->
+        <ul class=" md:flex space-x-8 text-white">
+        <li><a href="#" class="hover:text-yellow-300">About</a></li>
+        <li><a href="#" class="hover:text-yellow-300">Gallery</a></li>
+        <li><a href="#" class="hover:text-yellow-300">Plant a Tree</a></li>
+      </ul>
+
+       <!-- button -->
+        <div class="pr-10 ">
+          <button class="bg-yellow-400 text-green-800 px-4 py-2 rounded-full font-semibold hover:bg-yellow-500"> Plant a Tree</button>
+        </div>
+
+    </div>
+  </nav>
+
+  <!-- banner -->
+   <section class="bg-green-100 h-[237px] flex justify-between items-center">
+    <div class="w-[420px]">
+      <img src="assets/hero-leaf1.png" alt="">
+    </div>
+    <div class="max-w-4xl mx-auto text-center py-20 px-4">
+      <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+        Plant a Tree, Grow a Future
+      </h1>
+      <p class="text-gray-600 mb-6">
+        Join our mission to plant 1 million trees and make the Earth greener for future generations.
+      </p>
+      <button class="bg-yellow-400 text-green-800 px-6 py-2 rounded-full font-semibold hover:bg-yellow-500">
+        Get Involved
+      </button>
+    </div>
+     <div class="w-[420px]">
+      <img src="assets/hero-leaf2.png" alt="">
+    </div>
+   </section>
+
+
 </body>
 </html>
